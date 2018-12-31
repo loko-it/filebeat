@@ -1,7 +1,6 @@
 #================================ Logging ======================================
 # There are four options for the log output: file, stderr, syslog, eventlog
 # The file output is the default.
-
 logging.level: critical
 
 # If enabled, filebeat periodically logs its internal metrics that have changed
