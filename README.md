@@ -1,4 +1,4 @@
-# ELK_PfSense
+# ELK PfSense
 Run from command line to install:
 
 fetch -o - https://git.io/fppzS | sh -s
