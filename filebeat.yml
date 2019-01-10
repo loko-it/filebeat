@@ -28,14 +28,6 @@ filebeat.inputs:
   fields:
     event.type: snort
 
-#- type: log
-#  enabled: true
-#  paths:
-#    - /var/log/pfblockerng/dnsbl.log
-#
-#  fields:
-#    event.type: pfblocker
-
 #------------------------------ Syslog input --------------------------------
 # Experimental: Config options for the Syslog input
 # Accept RFC3164 formatted syslog event via UDP.
