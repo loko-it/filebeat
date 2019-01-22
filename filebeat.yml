@@ -47,7 +47,7 @@ output.logstash:
   ssl.certificate_authorities: ["/usr/local/etc/ELK-CA.crt"]
 
   # Certificate for SSL client authentication
-  ssl.certificate: "/usr/local/etc/filebeat.flevocloud.nl.crt"
+  ssl.certificate: "/usr/local/etc/beats.flevocloud.nl.crt"
 
   # Client Certificate Key
-  ssl.key: "/usr/local/etc/filebeat.flevocloud.nl.key"
+  ssl.key: "/usr/local/etc/beats.flevocloud.nl.key"
