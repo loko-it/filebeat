@@ -12,4 +12,5 @@ echo "Removing filebeat..."
 /usr/sbin/pkg remove -y beats
 /bin/rm /usr/local/etc/rc.d/filebeat.sh
 /bin/rm /usr/local/etc/filebeat.yml
+/bin/rm /etc/rc.conf.local
 echo " done."
