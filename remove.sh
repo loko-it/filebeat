@@ -13,4 +13,7 @@ echo "Removing filebeat..."
 /bin/rm /usr/local/etc/rc.d/filebeat.sh
 /bin/rm /usr/local/etc/filebeat.yml
 /bin/rm /etc/rc.conf.local
+/bin/rm /usr/local/etc/ELK-CA.crt
+/bin/rm /usr/local/etc/beats.flevocloud.nl.crt
+/bin/rm /usr/local/etc/beats.flevocloud.nl.key
 echo " done."
