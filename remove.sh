@@ -16,4 +16,6 @@ echo "Removing filebeat..."
 /bin/rm /usr/local/etc/ELK-CA.crt
 /bin/rm /usr/local/etc/beats.flevocloud.nl.crt
 /bin/rm /usr/local/etc/beats.flevocloud.nl.key
+/bin/rm /usr/local/etc/filebeat.flevocloud.nl.crt
+/bin/rm /usr/local/etc/filebeat.flevocloud.nl.key
 echo " done."
