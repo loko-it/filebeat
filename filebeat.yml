@@ -39,8 +39,8 @@ filebeat.inputs:
 
 #------------------------------ NetFlow input --------------------------------
 # Experimental: Config options for the Netflow/IPFIX collector over UDP input
-#- type: netflow
-  #enabled: false
+- type: netflow
+  enabled: true
 
   # Address where the NetFlow Collector will bind
   host: "127.0.0.1:2055"
@@ -60,6 +60,9 @@ filebeat.inputs:
   # Queue size limits the number of netflow packets that are queued awaiting
   # processing.
   #queue_size: 8192
+
+  fields:
+    event.type: snort
 
 #----------------------------- Logstash output --------------------------------
 output.logstash:
