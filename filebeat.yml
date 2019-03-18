@@ -40,7 +40,7 @@ filebeat.inputs:
 #------------------------------ NetFlow input --------------------------------
 # Experimental: Config options for the Netflow/IPFIX collector over UDP input
 - type: netflow
-  enabled: true
+  enabled: false
 
   # Address where the NetFlow Collector will bind
   host: "127.0.0.1:2055"
