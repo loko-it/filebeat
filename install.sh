@@ -7,13 +7,6 @@ if [ -f /usr/local/etc/rc.d/filebeat ]; then
   echo " done."
 fi
 
-#Remove current version and config
-echo "Removing filebeat..."
-/usr/sbin/pkg remove -y beats
-/bin/rm /usr/local/etc/rc.d/filebeat.sh
-/bin/rm /usr/local/etc/filebeat.yml
-echo " done."
-
 #Install new version
 echo -n "Installing filebeat..."
 #/usr/sbin/pkg add -f https://github.com/loko-it/filebeat/raw/master/beats-6.8.6.txz
