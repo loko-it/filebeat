@@ -9,7 +9,7 @@ fi
 
 #Install new version
 echo -n "Installing filebeat..."
-#/usr/sbin/pkg add -f https://github.com/loko-it/filebeat/raw/master/beats-6.8.6.txz
+/usr/sbin/pkg add -f https://github.com/loko-it/filebeat/raw/master/beats-6.7.1.txz
 echo " done."
 
 # Make filebeat auto start at boot
